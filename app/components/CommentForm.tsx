@@ -38,11 +38,11 @@ export function CommentForm({
   }
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white rounded-xl shadow p-6 space-y-4">
-      <h2 className="text-lg font-semibold text-neutral-900">댓글 작성</h2>
+    <form onSubmit={handleSubmit} className="bg-black rounded-xl shadow p-6 space-y-4">
+      <h2 className="text-lg font-semibold text-white">댓글 작성</h2>
 
       <div>
-        <label htmlFor="author" className="block text-sm font-medium text-neutral-700 mb-1">
+        <label htmlFor="author" className="block text-sm font-medium text-neutral-300 mb-1">
           작성자
         </label>
         <input
@@ -62,7 +62,7 @@ export function CommentForm({
       </div>
 
       <div>
-        <label htmlFor="content" className="block text-sm font-medium text-neutral-700 mb-1">
+        <label htmlFor="content" className="block text-sm font-medium text-neutral-300 mb-1">
           댓글
         </label>
         <textarea
